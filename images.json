@@ -1,19 +1,15 @@
 [
   {
-    "source":"osixia/openldap:1.5.0",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/openldap:1.5.0"
+    "source":"redis:7.2.5",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/redis:7.2.5"
   },
   {
-    "source":"osixia/phpldapadmin:latest",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/phpldapadmin:latest"
+    "source":"qdrant/qdrant:v1.11.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/qdrant:v1.11.0"
   },
   {
-    "source":"sonatype/nexus3:3.69.0",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/nexus3:3.69.0"
-  },
-  {
-    "source":"atlassian/confluence-server:7.19.6",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/confluence-server:7.19.6"
+    "source":"unstructured-io/unstructured-api:0.0.79",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/unstructured-api:0.0.79"
   }
 ]
 

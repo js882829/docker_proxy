@@ -18,5 +18,21 @@
   {
     "source": "postgres:15",
     "target": "hkccr.ccs.tencentyun.com/devopsvip/postgres:15"
+  },
+  {
+    "source":"osixia/openldap:1.5.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/openldap:1.5.0"
+  },
+  {
+    "source":"osixia/phpldapadmin:latest",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/phpldapadmin:latest"
+  },
+  {
+    "source":"sonatype/nexus3:3.69.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/nexus3:3.69.0"
+  },
+  {
+    "source":"atlassian/confluence-server:7.19.6",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/confluence-server:7.19.6"
   }
 ]
