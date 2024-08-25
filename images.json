@@ -16,8 +16,8 @@
     "target":"hkccr.ccs.tencentyun.com/devopsvip/sonatype/nexus3:3.69.0"
   },
   {
-    "source":"atlassian/confluence-server:7.19.6_g",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/atlassian/confluence-server:7.19.6_g"
+    "source":"library/atlassian/confluence-server:7.19.6_g",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/library/atlassian/confluence-server:7.19.6_g"
   }
 ]
 
