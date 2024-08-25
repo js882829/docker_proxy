@@ -1,6 +1,6 @@
 [
   {
-    "source":"unstructured-api:latest",
+    "source":"registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/unstructured-api:latest",
     "target":"hkccr.ccs.tencentyun.com/devopsvip/unstructured-api:latest"
   }
 ]
