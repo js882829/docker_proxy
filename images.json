@@ -6,6 +6,10 @@
   {
     "source":"mysql:8.0.27",
     "target":"hkccr.ccs.tencentyun.com/devopsvip/mysql:8.0.27"
+  },
+  {
+    "source":"redis:6.2.6",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/redis:6.2.6"
   }
 ]
 
