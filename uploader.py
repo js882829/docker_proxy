@@ -28,6 +28,12 @@ if __name__ == "__main__":
   username = sys.argv[1]
   password = sys.argv[2]
   registry_url = sys.argv[3]
+
+  # 打印用户名（调试时使用）
+  print(f"Username: {username}")
+  print(f"password: {password}")
+  print(f"registry_url: {registry_url}")
+
   # 读取 JSON 文件
   with open('images.json') as file:
       images = json.load(file)
