@@ -2,6 +2,10 @@
   {
     "source":"registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/unstructured-api:latest",
     "target":"hkccr.ccs.tencentyun.com/devopsvip/unstructured-api:latest"
+  },
+  {
+    "source": "nginx:1.21.5",
+    "target": "hkccr.ccs.tencentyun.com/devopsvip/nginx:1.21.5"
   }
 ]
 
