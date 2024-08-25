@@ -1,11 +1,11 @@
 [
    {
     "source":"rancher/rancher:v2.8-head",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/rancher:v2.8-head"
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/rancher:v2.8-head"
   },
    {
     "source":"rancher/rancher-agent:v2.8-head",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/rancher-agent:v2.8-head"
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/rancher-agent:v2.8-head"
    }
 ]
 
