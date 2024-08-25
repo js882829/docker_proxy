@@ -1,1 +1,14 @@
-
+[
+  {
+    "source":"sonarqube:7.9.2-community",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/sonarqube:7.9.2-community"
+  },
+  {
+    "source":"mysql:8.0.27",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/mysql:8.0.27"
+  },
+  {
+    "source":"redis:6.2.6",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/redis:6.2.6"
+  }
+]
