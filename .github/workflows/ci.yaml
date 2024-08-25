@@ -17,6 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run Push Docker images
       run: |
+        docker rmi `docker images -q`
         mkdir -p images/ 
         python uploader.py ${{ secrets.TENCENTDOCKER_USER}} ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
     - uses: actions/upload-artifact@v2
