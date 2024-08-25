@@ -34,5 +34,13 @@
   {
     "source":"atlassian/confluence-server:7.19.6",
     "target":"hkccr.ccs.tencentyun.com/devopsvip/confluence-server:7.19.6"
+  },
+  {
+    "source":"redis:7.2.5",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/redis:7.2.5"
+  },
+  {
+    "source":"qdrant/qdrant:v1.11.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/qdrant:v1.11.0"
   }
 ]
