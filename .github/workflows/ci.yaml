@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 #VERSION 2
-#renew
+#new
 
 name: Docker image sync to tencent
 env:
