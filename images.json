@@ -1,15 +1,15 @@
 [
   {
-    "source":"sonarqube:7.9.2-community",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/sonarqube:7.9.2-community"
+    "source":"nginx:1.21.5",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/nginx:1.21.5"
   },
   {
-    "source":"mysql:8.0.27",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/mysql:8.0.27"
+    "source":"osixia/openldap:1.5.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/osixia/openldap:1.5.0"
   },
   {
-    "source":"redis:6.2.6",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/redis:6.2.6"
+    "source":"postgres:15",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/postgres:15"
   }
 ]
 
