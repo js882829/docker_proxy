@@ -25,14 +25,14 @@ def upload_docker_images(source_image,target_image,registry_url, username, passw
     subprocess.run(logout_command, shell=True, check=True)
 
 if __name__ == "__main__":
+  if len(sys.argv) != 4:
+        print("Usage: python uploader.py <username> <password> <registry_url>")
+        sys.exit(1)
+      
   username = sys.argv[1]
   password = sys.argv[2]
   registry_url = sys.argv[3]
 
-  # 打印用户名（调试时使用）
-  print(f"Username: {username}")
-  print(f"password: {password}")
-  print(f"registry_url: {registry_url}")
 
   # 读取 JSON 文件
   with open('images.json') as file:
