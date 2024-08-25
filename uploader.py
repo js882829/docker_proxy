@@ -61,8 +61,12 @@ def main():
             print(f"上传镜像 {image['target']} 失败: {e}")
 
     # 将成功上传的镜像写入 synced_images.json
-    with open('synced_images.json', 'w') as file:
-        json.dump(synced_images, file, indent=2)
+    try:
+        with open('synced_images.json', 'w') as file:
+            json.dump(synced_images, file, indent=2)
+        print("已成功写入 synced_images.json")
+    except IOError as e:
+        print(f"写入 'synced_images.json' 时出错: {e}")
 
 if __name__ == "__main__":
     main()
