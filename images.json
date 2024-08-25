@@ -4,20 +4,20 @@
     "target":"hkccr.ccs.tencentyun.com/devopsvip/nginx:1.21.5"
   },
   {
-    "source":"osixia/openldap:1.5.0",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/osixia/openldap:1.5.0"
+    "source":"openldap:1.5.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/openldap:1.5.0"
   },
   {
     "source":"postgres:15",
     "target":"hkccr.ccs.tencentyun.com/devopsvip/postgres:15"
   },
   {
-    "source":"sonatype/nexus3:3.69.0",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/sonatype/nexus3:3.69.0"
+    "source":"nexus3:3.69.0",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/nexus3:3.69.0"
   },
   {
-    "source":"library/atlassian/confluence-server:7.19.6_g",
-    "target":"hkccr.ccs.tencentyun.com/devopsvip/library/atlassian/confluence-server:7.19.6_g"
+    "source":"confluence-server:7.19.6_g",
+    "target":"hkccr.ccs.tencentyun.com/devopsvip/confluence-server:7.19.6_g"
   }
 ]
 
